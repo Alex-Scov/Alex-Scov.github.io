@@ -8,6 +8,11 @@
 	flex-wrap: wrap;
 }
 
+/* #dog {
+	position: relative;
+	top:-150px;
+} */
+
 img {max-width: 100%;}
 #snipped {
 	position: relative;
