@@ -3,9 +3,18 @@
 
 .project {flex-wrap: wrap;}
 .major {flex-wrap: wrap}
+.col-6 {
+	max-width: 30%;
+	flex-wrap: wrap;
+}
 
 img {max-width: 100%;}
+#snipped {
+	position: relative;
+	top:-80px
+}
 
+#recent {float: left;}
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2191,7 +2200,7 @@ input, select, textarea {
 	ul.icons {
 		cursor: default;
 		list-style: none;
-		padding-left: 0;
+		padding-left: 30%;
 	}
 
 		ul.icons li {
@@ -2414,7 +2423,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 33%;
 	}
 
 		#header > * {
@@ -2531,7 +2540,7 @@ input, select, textarea {
 
 			#header {
 				padding: 6em 3em 3em 3em;
-				width: 30%;
+				width: 10%;
 			}
 
 				#header h1 {
